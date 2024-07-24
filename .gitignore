@@ -1,0 +1,63 @@
+# NuGet Packages
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files
+*.gpState
+*.cache
+*.IntelliSense.cache
+project.lock.json
+*.pidb
+*.server.pid
+
+# Mono files
+*.mdb
+*.mdf
+*.ldf
+*.pid
+*.log
+*.db
+*.sqlite3
+
+# macOS files
+.DS_Store
+
+# Azure Functions local settings
+local.settings.json
+
+# Backup & Report Files
+*.bak
+*.rpt
+
+# Rider files
+.idea/
+
+# Code Coverage Files
+*.coverage
+*.coveragexml
+
+# Secrets
+*.secrets.json
+
+#config
+App.config
+*.config
